@@ -1,0 +1,33 @@
+.mainContainer {
+  width: calc(100vw - 40px);
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+}
+
+.buttonContainer {
+  padding: 20px 10px;
+}
+
+.title {
+  font-weight: 600;
+  color: #2196f3;
+  padding: 0 10px 10px;
+}
+
+.body {
+  color: #454545;
+  padding: 0 10px;
+}
+
+.error {
+  position: absolute;
+  top: 37px;
+  right: 15px;
+  color: #f00;
+  font-size: 12px;
+}
+
+dl.s {
+  display: none;
+}
