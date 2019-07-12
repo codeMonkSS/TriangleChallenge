@@ -8,7 +8,7 @@ Write a program that will determine the type of a triangle. It should take the l
 ----------
 
 #### Development Choices
-The type of a triangle (Equilateral, Isosceles or Scalene) is determined by how many different side lengths there are in a triangle. It was a straight forward decision on providing solutions that showcase problem-solving skills and structural considerations. I created the input fields that define the length of the sides of a triangle.
+The type of a triangle (Equilateral, Isosceles or Scalene) is determined by how many different side lengths there are in a triangle. It was a straight forward decision on providing solutions that showcase problem-solving skills and structural considerations. I created the input fields that define the length of the sides of a triangle. I also used a classic theory stating the sum of 2 sides must always be greater than the third side.
 
 #### Design Choices
 As it was stated in the challenge, "_It would be great to build the UI with TradeShift UI components_", I took my chances and found out that using this UI is brilliant. However, I could not use all/most of it due to the size of the project, but I tried my best to utilise as much as I could.
@@ -23,7 +23,7 @@ I used _regular expressions_ `^[1-9][0-9]*$` to make sure the users are providin
 
 #### Why not to allow inputs as 0 or a negative numbers.
 
-**Reason:** The sides of a triangle are its lengths and logically, lengths cannot be negative.
+**Reason:** The sides of a triangle are its lengths and logically, lengths cannot be a 0 or a negative value to comply with the triangle rule.
 
 ----------
 
