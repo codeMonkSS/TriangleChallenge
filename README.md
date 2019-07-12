@@ -11,7 +11,7 @@ Write a program that will determine the type of a triangle. It should take the l
 The type of a triangle (Equilateral, Isosceles or Scalene) is determined by how many different side lengths there are in a triangle. It was a straight forward decision on providing solutions that showcase problem-solving skills and structural considerations. I created the input fields that define the length of the sides of a triangle. I also used a classic theory stating the sum of 2 sides must always be greater than the third side.
 
 #### Design Choices
-As it was stated in the challenge, "_It would be great to build the UI with TradeShift UI components_", I took my chances and found out that using this UI is brilliant. However, I could not use all/most of it due to the size of the project, but I tried my best to utilise as much as I could.
+As it was stated in the challenge, "_It would be great to build the UI with TradeShift UI components_". I found out that using this UI is brilliant. However, I could not use all/most of it due to the size of the project, but I tried my best to utilise as much as I could.
 
 #### Testing
 I used _regular expressions_ `^[1-9][0-9]*$` to make sure the users are providing the right input. I created input onChange/onUpdate functions to make sure the data being passed to my function was valid. I invoked these functions before determining the triangle type in my main function.
